@@ -378,7 +378,6 @@
             </a>
           </li>
         </ul>
-
       </div>
 
       <div class="card-footer-news">
@@ -400,21 +399,36 @@
     </div>
   </footer>
 
+  <!-- модальное окно -->
+
   <div class="backdrop is-hidden" data-modal>
     <div class="modal">
-      <p class="modal-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem facere dolorum ab
-        corrupti placeat aut facilis velit quos nisi voluptatum!</p>
       <button class="button-close" data-modal-close>
         <svg class="icon" width="18" height="18">
           <use href="./images/icon/sprite.svg#icon-close-black"></use>
         </svg>
       </button>
+
+      <p class="modal-text">Оставьте свои данные, мы вам перезвоним</p>
+      <form class="js-order-form">
+
+      </form>
+
     </div>
   </div>
   <script src="./js/modal.js"></script>
-  <!-- <script>
-    
-  </script> -->
+
+  <script>
+    (() => {
+      document.querySelector('.js-order-form').addEventListener('submit', e => {
+        e.preventDefault();
+
+        new FormData(e.currentTarget).forEach((value, name) =>
+          console.log(`${name}: ${value}`),
+        );
+      });
+    })();
+  </script>
 
 </body>
 
