@@ -702,7 +702,7 @@ img {
   font-size: 20px;
   line-height: 1.15;
 
-  color: #212121;
+  color: var(--title-color);
 }
 
 /*------------ страница портфолио------------- */
