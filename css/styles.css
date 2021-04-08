@@ -550,7 +550,7 @@ img {
 }
 
 .card-footer {
-  flex-basis: calc(50% / 2 - 45px);
+  flex-basis: calc((50% - 45px) / 2);
 }
 /* .social-networks {
   margin-left: 70px;
@@ -571,7 +571,7 @@ img {
 }
 
 .card-footer-news {
-  flex-basis: calc(100% / 2 - 15px);
+  flex-basis: calc(50% - 15px);
 }
 
 .news-title {
