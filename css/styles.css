@@ -497,6 +497,7 @@ img {
 
 .our-contacts {
   display: flex;
+  justify-content: space-between;
   align-items: baseline;
 }
 
@@ -551,9 +552,9 @@ img {
 .card-footer {
   flex-basis: calc(50% / 2 - 45px);
 }
-.social-networks {
+/* .social-networks {
   margin-left: 70px;
-}
+} */
 
 .card-footer .social-icon-link {
   background-color: rgba(255, 255, 255, 0.1);
@@ -571,7 +572,6 @@ img {
 
 .card-footer-news {
   flex-basis: calc(100% / 2 - 15px);
-  margin-left: auto;
 }
 
 .news-title {
