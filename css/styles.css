@@ -705,6 +705,12 @@ img {
   color: var(--title-color);
 }
 
+.form {
+  display: flex;
+}
+.form-field {
+}
+
 /*------------ страница портфолио------------- */
 .btn .list {
   display: flex;
