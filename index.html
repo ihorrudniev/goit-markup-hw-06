@@ -409,27 +409,41 @@
         </svg>
       </button>
 
-      <div class="form">
+      <form class="form js-order-form">
         <p class="modal-text">Оставьте свои данные, мы вам перезвоним</p>
-        <form class="js-order-form">
-          <div class="form-field">
-            <label for="name">Имя</label>
-            <input type="name" id="name" placeholder="Иван">
-          </div>
-          <div class="form-field">
-            <label for="tel">Имя</label>
-            <input type="tel" id="tel" placeholder="+380671234567">
-          </div>
-          <div class="form-field">
-            <label for="mail">Почта</label>
-            <input type="mail" id="mail" placeholder="mail@mai.ru">
-          </div>
-          <div class="form-field">
-            <label for="name">Имя</label>
-            <input type="name" id="name" placeholder="Иван">
-          </div>
-        </form>
-      </div>
+        <div class="form-field">
+          <label class="form-label" for="name">Имя</label>
+          <input class="form-input" type="name" id="name">
+          <svg class="icon" width="18" height="18">
+            <use href="./images/icon/sprite.svg#icon-person"></use>
+          </svg>
+        </div>
+
+        <div class="form-field">
+          <label class="form-label" for="tel">Телефон</label>
+          <input class="form-input" type="tel" id="tel">
+          <svg class="icon" width="18" height="18">
+            <use href="./images/icon/sprite.svg#icon-phone"></use>
+          </svg>
+        </div>
+
+        <div class="form-field">
+          <label class="form-label" for="mail">Почта</label>
+          <input class="form-input" type="mail" id="mail">
+          <svg class="icon" width="18" height="18">
+            <use href="./images/icon/sprite.svg#icon-email"></use>
+          </svg>
+        </div>
+
+        <div class="form-field">
+          <label class="form-label" for="comments">Комментарий</label>
+          <textarea class="form-textarea" name="comments" id="comments" cols="30" rows="10"
+            placeholder="Введите текст"></textarea>
+        </div>
+      </form>
+      <p class="consent">Соглашаюсь с рассылкой и принимаю <a class="consent link-contract" href="">Условия
+          договора</a></p>
+      <button class="form-submit" type="submit">Отправить</button>
 
     </div>
   </div>
