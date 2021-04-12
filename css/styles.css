@@ -455,13 +455,11 @@ img {
 .social-icon-link:hover,
 .social-icon-link:focus {
   background-color: var(--accent-color);
-  /* outline: none; */
 }
 
 .social-icon-link:hover .icon,
 .social-icon-link:focus .icon {
   fill: var(--main-color);
-  /* outline: none; */
 }
 
 /* ---------наши клиенты---------- */
@@ -493,7 +491,6 @@ img {
 .clients-item-link:focus {
   fill: var(--accent-color);
   border: 1px solid var(--accent-color);
-  /* outline: none; */
 }
 
 /* ---------Footer--------------*/
@@ -564,7 +561,6 @@ img {
 .social-icon-link:hover,
 .social-icon-link:focus {
   background-color: var(--accent-color);
-  /* outline: none; */
 }
 
 .card-footer-news {
@@ -694,7 +690,6 @@ img {
 .button-close:hover,
 .button-close:focus {
   fill: var(--accent-color);
-  /* outline: none; */
 }
 
 .modal-text {
@@ -755,7 +750,6 @@ img {
 .form-input:hover,
 .form-input:focus {
   border: 1px solid var(--accent-color);
-  /* outline: none; */
 }
 
 .form-input:hover ~ .icon,
@@ -777,7 +771,6 @@ img {
 .form-textarea:hover,
 .form-textarea:focus {
   border: 1px solid var(--accent-color);
-  /* outline: none; */
 }
 
 .form-textarea::placeholder {
@@ -898,7 +891,6 @@ img {
   background-color: var(--accent-color);
   color: var(--main-color);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-  /* outline: none; */
 }
 
 .list.card-set {
@@ -918,7 +910,6 @@ img {
 .item-card-set:hover,
 .item-card-set:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-  /* outline: none; */
 }
 
 .link-thumb {
