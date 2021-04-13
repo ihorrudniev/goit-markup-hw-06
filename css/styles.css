@@ -750,6 +750,7 @@ img {
 .form-input:hover,
 .form-input:focus {
   border: 1px solid var(--accent-color);
+  outline: 0;
 }
 
 .form-input:hover ~ .icon,
@@ -771,6 +772,7 @@ img {
 .form-textarea:hover,
 .form-textarea:focus {
   border: 1px solid var(--accent-color);
+  outline: 0;
 }
 
 .form-textarea::placeholder {
